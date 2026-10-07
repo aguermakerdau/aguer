@@ -1,0 +1,333 @@
+Exercise A: Explaining the SDLC
+Prompt 1: Zero-Shot
+Your Prompt:
+
+What is the Software Development Life Cycle (SDLC)?
+
+AI Response:
+
+The Software Development Life Cycle (SDLC) is a structured process used by software engineering teams to design, develop, test, and deploy high-quality software. It consists of six to seven key phases:
+
+Planning & Requirement Analysis: Defining project scope, objectives, and resource requirements.
+
+System Design: Creating architectural designs, database schemas, and user interface mockups.
+
+Implementation (Coding): Writing the source code according to design specifications.
+
+Testing: Identifying bugs, verifying functionality, and ensuring quality assurance.
+
+Deployment: Releasing the application to a production environment for end users.
+
+Maintenance: Monitoring performance, fixing post-launch bugs, and deploying updates.
+
+The goal of the SDLC is to minimize risks, lower costs, and ensure software meets user expectations efficiently.
+
+3–5 Sentence Summary:
+The SDLC is a systematic methodology used by developers to build and deliver quality software applications. It guides a project through defined stages including planning, architecture design, programming, quality assurance testing, deployment, and ongoing maintenance. By using this framework, software teams can control costs, manage timelines, and ensure the final product fulfills user requirements.
+
+Prompt 2: Role Prompting
+Your Prompt:
+
+You are a Senior Principal Software Architect. Explain the Software Development Life Cycle (SDLC) to a class of first-year computer science students. Format your response into bulleted sections using non-technical analogies.
+
+AI Response:
+
+Welcome to Software Engineering 101! Imagine building a custom house—you wouldn't just grab a hammer and start nailing wood together without a blueprint. The Software Development Life Cycle (SDLC) is our blueprint for building software step-by-step.
+
+1. Planning & Requirements (The Client Meeting): Just as an architect asks a homeowner how many bedrooms they need, developers ask users what problems the software needs to solve.
+
+2. System Design (The Architectural Blueprint): Before building, architects draw floor plans and electrical diagrams. Developers design database structures and software architecture so all pieces fit together smoothly.
+
+3. Implementation (Laying the Bricks): Masons, plumbers, and electricians build the house. Software engineers write code to turn design blueprints into functional screens and buttons.
+
+4. Testing (The Safety Inspection): Inspectors check that the wiring is safe and the plumbing doesn't leak. QA engineers test software to find bugs before real users move in.
+
+5. Deployment (Handing Over the Keys): The house is ready, and the family moves in. Developers launch the application to app stores or web servers for public access.
+
+6. Maintenance (Home Upkeep): Fixing a broken pipe or adding a patio layer. Developers issue software patches, fix newly discovered bugs, and roll out feature updates.
+
+3–5 Sentence Summary:
+This response compares the software development process to constructing a custom house to make complex ideas accessible to beginners. It breaks down the SDLC into six clear phases: requirements planning, structural design, coding, quality testing, release, and maintenance. By pairing each technical phase with everyday homebuilding analogies, it helps students grasp why organized development is necessary.
+
+Compare
+Which response was more useful? Prompt 2's response was significantly more useful for educational purposes, whereas Prompt 1 was better suited for a quick, factual reference manual.
+
+What did you change? I added an expert persona (Senior Principal Software Architect), defined a target audience (first-year CS students), and constrained the output style (bulleted sections with non-technical analogies).
+
+How did the role and audience affect the response? Defining the audience lowered the technical barrier by replacing jargon with relatable real-world metaphors (building a house), while the assigned role ensured the explanation maintained professional authority and structural clarity.
+
+Exercise B: Software Development Models
+Scenario & Prompt
+Your Prompt:
+
+Act as a Lead Software Consultant. Recommend the most appropriate software development model for each of the following four project scenarios. For each scenario:
+
+State the recommended model.
+
+Explain why it fits the situation.
+
+Mention one key limitation of the model.
+
+Scenarios:
+
+Scenario A: A project with stable, clearly defined requirements.
+
+Scenario B: A startup where requirements change frequently based on user feedback.
+
+Scenario C: A large project with significant technical and security risks.
+
+Scenario D: A project where testing and verification are extremely important.
+
+AI Response
+Scenario A: Stable, clearly defined requirements
+Recommended Model: Waterfall Model
+
+Why Appropriate: Because the requirements are fixed and well-understood upfront, a linear, sequential approach works best. Each phase (requirements, design, coding, testing) completes fully before the next begins, making timeline and budget planning straightforward.
+
+Limitation: Extreme rigidity; if requirements unexpectedly change late in the process, going back to fix previous phases is costly and time-consuming.
+
+Scenario B: Startup with rapidly changing requirements
+Recommended Model: Agile (Scrum / Kanban)
+
+Why Appropriate: Agile works in short, iterative development cycles (sprints). This allows startups to release minimal viable products (MVPs), gather immediate user feedback, and pivot features quickly without wasting effort on long-term planning.
+
+Limitation: Scope creep and unpredictable final costs due to the lack of long-term fixed planning.
+
+Scenario C: Large project with technical and security risks
+Recommended Model: Spiral Model
+
+Why Appropriate: The Spiral model combines iterative development with systematic risk analysis at every iteration cycle. It allows engineering teams to build prototypes, identify technical bottlenecks, and evaluate security risks early before heavy capital investment.
+
+Limitation: Expensive and complex to manage; requires specialized risk-assessment expertise that can slow down baseline progress.
+
+Scenario D: Testing and verification are critical
+Recommended Model: V-Model (Verification and Validation Model)
+
+Why Appropriate: The V-Model pairs every development phase directly with a corresponding testing phase (e.g., Requirements with Acceptance Testing; Architecture Design with Integration Testing). This ensures that validation criteria are established before code is even written.
+
+Limitation: Inflexible to changes once testing plans and software designs are baselined early in the cycle.
+
+Reflection
+Choosing a software development model is not a one-size-fits-all decision; it depends on project constraints like certainty, risk tolerance, and quality standards. I learned that project stability dictates model selection: predictable projects thrive under structured linear approaches like Waterfall or V-Model, while unpredictable environments demand adaptive methodologies like Agile. Furthermore, high-stakes environments with high technical uncertainty necessitate risk-focused frameworks like the Spiral model to protect investments.
+
+Exercise C: Requirements Extraction
+Client Brief & Prompt
+Your Prompt:
+
+You are a Lead Business Analyst. Analyze the following client brief for a local bookstore and extract the software requirements:
+
+Client Brief:
+"A local bookstore needs software to track books, quantities and prices; manage supplier payments; alert staff when stock is low; identify best-selling books; allow customers to check availability online; and produce clear records for a part-time assistant. The owner has a limited budget."
+
+Provide:
+
+Functional Requirements (What the system must do)
+
+Non-Functional Requirements (Quality attributes, constraints, performance)
+
+MoSCoW Prioritization:
+
+Must Have (Core essentials for MVP)
+
+Should Have (Important features that can wait briefly)
+
+Nice to Have (Value-add extras)
+
+Questions / Ambiguities (Items requiring immediate clarification from the client)
+
+AI Response
+1. Functional Requirements
+Inventory Tracking: Maintain database records of book titles, ISBNs, stock quantities, and retail prices.
+
+Supplier Payment Management: Record invoice details, payment due dates, and track outgoing supplier payments.
+
+Low-Stock Alerts: Trigger automated notifications when stock levels fall below a set threshold.
+
+Sales Reporting: Calculate sales volume to rank and display best-selling titles.
+
+Online Search Interface: Provide a public online search bar for customers to query real-time in-store stock availability.
+
+Audit Logging / Simple UI: Generate simplified activity reports tailored for part-time administrative staff.
+
+2. Non-Functional Requirements
+Cost Constraint: Total development and operational costs must fit within a "limited budget."
+
+Usability: Simple, intuitive administrative user interface requiring minimal training for part-time assistants.
+
+Security: Basic access control (role-based permissions) separating public customer views from administrative financial data.
+
+Availability/Performance: Public inventory search portal must maintain fast lookup times and uptime during operational hours.
+
+3. MoSCoW Prioritization
+Must Have (MVP):
+
+Inventory tracking (books, pricing, quantities).
+
+Low-stock alert thresholds.
+
+Simple, intuitive admin interface for part-time workers.
+
+Basic sales recording to track revenue and best-sellers.
+
+Should Have:
+
+Supplier payment tracking and invoice management.
+
+Basic public web portal for checking book availability online.
+
+Nice to Have:
+
+Automated automated purchase orders sent directly to suppliers upon low stock.
+
+Customer reservation/hold system for stock found online.
+
+4. Questions / Ambiguities
+Budget Limit: What is the precise numerical budget limit for initial development and monthly hosting fees?
+
+Payment Processing: Should the software process online payments or simply display stock availability?
+
+Supplier Integration: Does "manage supplier payments" require direct bank API integrations, or is manual logging sufficient?
+
+Access Platforms: Will staff access the application via a desktop computer, a mobile POS tablet, or a web browser?
+
+Evaluate
+Two things the AI did well:
+
+It accurately derived Non-Functional Requirements (such as usability for part-time staff and low-cost execution constraints) directly from subtle cues in the text.
+
+The MoSCoW framework correctly prioritized the basic inventory engine and UI as "Must Haves" while deferring complex features like external supplier payment management to later phases to honor budget constraints.
+
+One thing it missed or categorized incorrectly:
+
+The AI included "Automated purchase orders" in the "Nice to Have" category, which was entirely hallucinated/added beyond the explicit boundaries of the provided client brief.
+
+One improvement you would make to your prompt:
+
+Add a strict constraint: "Strictly base your extraction ONLY on the provided text without introducing external feature assumptions."
+
+Exercise D: Prompt Iteration Challenge
+Version 1
+Prompt:
+
+Write a project plan for a university study room booking app.
+
+AI Response:
+
+Here is a simple project plan for your university study room booking app:
+
+Phase 1: Planning: Define feature scope and gather requirements from students.
+
+Phase 2: Design: Create wireframes for mobile UI and design the backend database schema.
+
+Phase 3: Development: Program the app using React Native for frontend and Node.js for backend.
+
+Phase 4: Testing: Run user testing on iOS and Android devices.
+
+Phase 5: Launch: Publish the app to Apple App Store and Google Play Store.
+
+What is missing?
+It lacks depth, time estimates, concrete team roles, budget limits, risk assessment, explicit deliverables, and comprehensive coverage of engineering phases (like deployment and post-launch maintenance).
+
+Version 2
+Prompt:
+
+Create a structured project plan for a university campus study room booking mobile application. Assume the app needs to integrate with existing student login credentials. Include project phases, key technical features, and estimated completion times for each phase.
+
+What you changed: Added specific operational context (university campus, student login integration) and requested structural elements (phases, key technical features, phase durations).
+
+Why: To ground the AI in domain-specific realities (like university authentication single sign-on) and gain basic timeline estimates.
+
+Version 3
+Prompt:
+
+Act as a Technical Project Manager. Create a detailed project implementation plan for a university campus study room booking mobile application (iOS/Android). The target audience includes 20,000 active students.
+
+Structure your plan across standard software development phases. Include timeline estimates, deliverables per phase, and key risk factors with mitigation strategies. Format as clean bullet points.
+
+What you changed: Assigned the persona (Technical Project Manager), specified scale (20,000 active students), target platforms (iOS/Android), explicit deliverables, and risk management strategies.
+
+Why: To force the AI to consider scalability risks, load management, explicit artifacts (deliverables), and real-world project management structures.
+
+Version 4: Final Prompt
+Final Prompt:
+
+You are an Enterprise Project Manager specializing in higher-education software deployments. Create a comprehensive project plan for a university campus study room booking mobile app (iOS & Android) serving 20,000 students, integrated with campus Single Sign-On (SSO).
+
+You must explicitly include all of the following sections:
+
+All 7 SDLC Phases (Planning, Requirements, Design, Development, Testing, Deployment, Maintenance)
+
+Time Estimates for each phase (in weeks)
+
+Key Deliverables for each phase
+
+Project Risks & corresponding Risk Mitigation Strategies
+
+Team Roles required for project execution
+
+Rough Budget Breakdown (estimating total resource/labor allocation across a $50,000 total budget)
+
+AI Response (Version 4 Output)
+1. SDLC Phases, Time Estimates, and Key Deliverables
+Phase	Duration	Key Deliverables
+1. Planning	2 Weeks	Project Charter, Stakeholder Map, Initial Budget Approval
+2. Requirements Analysis	3 Weeks	System Requirements Specification (SRS), User Personas, SSO Integration Plan
+3. System Design	4 Weeks	UI/UX Figma Prototypes, System Architecture Diagram, ERD Database Schema
+4. Development	8 Weeks	Native Mobile App Codebase (iOS/Android), API Endpoints, Admin Web Portal
+5. Testing & QA	3 Weeks	Test Execution Reports, Security Audit Sign-off, Beta Testing Feedback Log
+6. Deployment	2 Weeks	App Store & Google Play Releases, SSO Production Deployment, Go-Live Checklist
+7. Maintenance	Ongoing (12 Wks)	Monthly Bug Fix Patches, Server SLA Monitoring Reports, Feature Backlog
+2. Project Risks & Risk Mitigation
+Risk 1: Peak Load System Crashes (High): System crash during midterms/finals due to simultaneous booking attempts by thousands of students.
+
+Mitigation: Implement cloud server auto-scaling (AWS) and queue systems (Redis) during high-demand windows.
+
+Risk 2: Campus SSO Integration Delays (Medium): Bureaucratic or technical blocks integrating with legacy university single sign-on systems.
+
+Mitigation: Initiate security reviews and request staging API access during Phase 1 (Planning).
+
+Risk 3: No-Show Reservations (Medium): Students hoard room bookings and fail to show up, leaving rooms empty.
+
+Mitigation: Build a QR-code check-in feature at room entrances that auto-cancels bookings after 15 minutes of inactivity.
+
+3. Required Team Roles
+Project Manager: Overall schedule, budget tracking, and university liaison.
+
+UI/UX Designer: Mobile app wireframing and accessibility compliance.
+
+Full-Stack Mobile Developers (2): React Native frontend and Node.js backend integration.
+
+QA Test Engineer: Automated functional, load, and security testing.
+
+DevOps / Infrastructure Engineer: Cloud deployment, database management, and SSO integration.
+
+4. Rough Budget Breakdown ($50,000 Total Allocation)
+Personnel / Development Labor (65%): $32,500
+
+UI/UX Design (12%): $6,000
+
+QA & Security Auditing (10%): $5,000
+
+Cloud Infrastructure & SSO Licensing (8%): $4,000
+
+Contingency Reserve (5%): $2,500
+
+Final Reflection
+Did your prompt improve from Version 1 to Version 4? What changes made the biggest difference?
+Yes, the output quality improved dramatically. The most impactful changes were introducing explicit structural constraints (requiring a tabular breakdown, specific deliverables, and budget numbers) and providing clear operational parameters (20,000 students, SSO integration, $50k budget).
+
+Overall Reflection
+What makes a prompt effective?
+An effective prompt provides clear context, defines a precise role or persona, specifies constraints, and explicitly lists required output formats or structural components.
+
+Which prompting technique did you find most useful?
+Role Prompting combined with Constraint Specification. Giving the AI a specific persona (e.g., Business Analyst, Project Manager) shifts its context window to adopt industry-standard terms and analytical frameworks.
+
+Why is context important when working with AI?
+AI models generate text based on statistical probability. Supplying rich context (e.g., team size, budget limits, user base) narrows down vague possibilities, ensuring the AI produces customized, actionable solutions rather than generic advice.
+
+Why should we review AI-generated responses instead of accepting them automatically?
+AI models can introduce hallucinations, miscategorize logic, or include assumptions not grounded in project reality (as seen in Exercise C). Human oversight guarantees factual correctness, domain alignment, and safety.
+
+How can AI support software engineers across the SDLC?
+AI serves as an assistant in every SDLC phase: parsing raw customer briefs into requirements (Planning), drafting architecture diagrams and code boilerplate (Design & Coding), writing test cases (QA), generating infrastructure scripts (Deployment), and analyzing error logs (Maintenance).
